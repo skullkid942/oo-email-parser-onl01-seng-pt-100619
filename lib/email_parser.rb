@@ -6,7 +6,7 @@ class EmailAddressParser
 
 attr_accessor :email_addresses
 
-def initialization(email_addresses)
+def initialization
   @email_addresses = email_addresses
 end
 
