@@ -11,7 +11,7 @@ def initialization(email_addresses)
 end
 
 def parse
- emails = @email_addresses.split(/[\s,]+/).uniq!
+ @email_addresses.split(/[\s,]+/).uniq!
   
 end 
 end 
